@@ -223,7 +223,8 @@ export const Certificates = [
     link: " "
   },
 ];
-export const Extracurriculars = [
+
+export const Extracurricular = [
   {
     id: 1,
     title: "NSS Volunteer",
