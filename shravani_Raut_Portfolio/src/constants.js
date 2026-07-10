@@ -125,7 +125,7 @@ export const SkillsInfo = [
       id: 2,
       img: dicsLogo,
       school: "D.I.C's English medium School,Nigdi",
-      date: "2020",
+      date: "2009-2020",
       grade: "97.6%",
       desc: "I completed my class 10 education from D.I.C's English medium School,Nigdi, under the SSC board, which was my basic step towards my learning journey.",
       degree: "SSC(X)",
@@ -160,6 +160,17 @@ export const SkillsInfo = [
       title: "Smritika Jounal",
       description:
         " ",
+      image:portfolioLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Shravani2137/Smritika-Journal ",
+      webapp: " ",
+    },
+
+     {
+      id: 3,
+      title: "SheCares- Smart Women Health Care Platform ",
+      description:
+        "Built SheCares, a women-focused period tracking web application using modern web technologies, featuring cycle prediction, symptom tracking, and personalized wellness support.",
       image:portfolioLogo,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Shravani2137/Smritika-Journal ",
@@ -202,6 +213,15 @@ export const Certificates = [
     tags: ["powerbi", "data-visualization", "analytics"],
     link: " "
   },
+
+  {
+    id: 4,
+    title: " Innov 4.0 Hackathon Certificate",
+    image: power,
+    description: "Completed Power BI training covering data modeling, DAX, interactive dashboards, and data visualization for business insights.",
+    tags: ["powerbi", "data-visualization", "analytics"],
+    link: " "
+  },
 ];
 export const Extracurriculars = [
   {
@@ -221,7 +241,7 @@ export const Extracurriculars = [
   {
     id: 3,
     title: "Tug of War Player",
-    description: "Gold medalist at State level Tugof war tournament.",
+    description: "Gold medalist at State level & Local Tugof war tournament.",
     tag: "Teamwork",
     
   },

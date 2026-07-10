@@ -29,7 +29,7 @@ const About = () => {
                 'Editor.',
                 'Coder.',
                 'Painter.',
-                'Sportswoman.',
+                'SportsWoman.',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -48,13 +48,13 @@ I also enjoy sports like tug-of-war and athletics, which teach teamwork and disc
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1sIQF73NQ_Kq1wdPlrBGgJYfePpVSMztM/view?usp=drive_link "
+            href="https://drive.google.com/file/d/1re-eQ6N4WT-vH0_Fgodo8nwSj4aU6wTf/view?usp=drive_link "
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-#F5F5F5 py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: 'linear-gradient(90deg, #FBEAEB)',
-              boxShadow: '0 0 1px #A5BECC, 0 0 1px #A5BECC, 0 0 20px #A5BECC',
+              boxShadow: '0 0 1px #A5BECC, 0 0 1px #A5BECC, 0 0 20px #6096b5',
             }}
           >
             DOWNLOAD RESUME
