@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Extracurriculars } from "../../constants";
+import { Extracurricular as ExtracurricularData } from "../../constants";
 
 const Extracurricular = () => {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -9,7 +9,7 @@ const Extracurricular = () => {
 
   return (
     <section
-      id="extracurricular"
+      id="Extracurricular"
       className="py-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans"
     >
       {/* Section Title */}
@@ -23,7 +23,7 @@ const Extracurricular = () => {
 
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {Extracurriculars.map((item) => (
+        {ExtracurricularData.map((item) => (
           <div
             key={item.id}
             onClick={() => openModal(item)}
