@@ -1,7 +1,7 @@
 Personal Portfolio Website
 
 A clean, modern, and fully responsive portfolio designed to highlight my projects, technical skills, certifications, and extracurricular activities. Built using React.js and Vite to ensure fast performance, smooth animations, and an elegant user experience.
-👉 View Live Portfolio 
+👉 View Live Portfolio https://shravani-2137.vercel.app/
 
 🔧 Tech Stack
 
