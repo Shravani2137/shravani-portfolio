@@ -45,7 +45,7 @@ import python1Logo from './assets/certificates_logo/python1.png';
 import power from './assets/certificates_logo/power.png';
 import SQL from './assets/certificates_logo/SQL.png'
 import yugyatra from './assets/certificates_logo/yug_yatra.png';  
-import Avalon from './assets/certificates_logo/Avalon.png';
+import Avalon from './assets/certificates_logo/avalon.png';
 
  
 
