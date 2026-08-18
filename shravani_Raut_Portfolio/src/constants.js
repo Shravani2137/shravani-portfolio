@@ -20,7 +20,7 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 
 // Experience Section Logo's
 import prodigyLogo from './assets/company_logo/prodigy.png';
-import YugyatraLogo from './assets/company_logo/Yugyatra.png';  
+import YugyatraLogo from './assets/company_logo/yugyatra.png';  
 
 // Education Section Logo's
 import ternaLogo from './assets/education_logo/terna.png';
