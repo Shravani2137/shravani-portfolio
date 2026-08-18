@@ -84,7 +84,7 @@ const CertificatesSection = () => {
                   src={selectedCertificate.image}
                   alt={selectedCertificate.title}
                   className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
-                />
+                /> 
               </div>
 
               <div className="lg:p-8 p-6">
@@ -113,7 +113,7 @@ const CertificatesSection = () => {
                   rel="noopener noreferrer"
                   className="w-full bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center block"
                 >
-                  View Certificate
+                
                 </a>
               </div>
             </div>

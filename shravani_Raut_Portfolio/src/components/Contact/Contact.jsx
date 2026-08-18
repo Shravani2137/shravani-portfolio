@@ -102,8 +102,8 @@ const Contact = () => {
           {/* Send Button */}
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 
-            text-white font-semibold rounded-md hover:opacity-90 transition"
+            className="w-full bg-gradient-to-r from-blue-600 via-white to-blue-400 py-3
+text-blue-700 font-semibold rounded-md hover:opacity-90 transition"
           >
             Send
           </button>

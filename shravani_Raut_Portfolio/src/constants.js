@@ -20,7 +20,7 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 
 // Experience Section Logo's
 import prodigyLogo from './assets/company_logo/prodigy.png';
- 
+import YugyatraLogo from './assets/company_logo/Yugyatra.png';  
 
 // Education Section Logo's
 import ternaLogo from './assets/education_logo/terna.png';
@@ -28,19 +28,26 @@ import rcfLogo from './assets/education_logo/RCF.png';
 import dicsLogo from './assets/education_logo/DICS.png';
 
 // Project Section Logo's
-import portfolioLogo from './assets/work_logo/portfolio.png';
- 
+ import nss from './assets/extra/nss1.jpg';
+ import nss2 from './assets/extra/nss2.png';
+import nss3 from './assets/extra/nss3.png';
+import s1 from './assets/extra/s1.png';
+import s2 from './assets/extra/s2.png';
+import s3 from './assets/extra/s3.png';
+import a1 from './assets/extra/a1.jpeg';
+import a2 from './assets/extra/a2.jpeg';
+import a3 from './assets/extra/a3.jpeg';
+import a4 from './assets/extra/a4.jpeg';
 
 // certificates Section Logo's
 import bitnbuildLogo from './assets/certificates_logo/bitnbuild.png';
 import python1Logo from './assets/certificates_logo/python1.png';
 import power from './assets/certificates_logo/power.png';
 import SQL from './assets/certificates_logo/SQL.png'
+import yugyatra from './assets/certificates_logo/yug_yatra.png';  
+import Avalon from './assets/certificates_logo/Avalon.png';
 
-// extra Section Logo's
-import art1Logo from './assets/extra/art1.png';
-import art2Logo from './assets/extra/art2.png';
-import art3Logo from './assets/extra/art3.png';
+ 
 
 export const SkillsInfo = [
   {
@@ -98,6 +105,21 @@ export const SkillsInfo = [
         "JavaScript",
       ],
     },
+
+    {
+      id: 1,
+      img: YugyatraLogo,
+      role: "SoftwareDeveloper",
+      company: "Yuga Yatra Retail ( OPC ) Private Limited",
+      date: "June 2026 - August 2026",
+      desc: " Worked on developing and maintaining web applications, implementing new features, and optimizing existing code for performance and scalability. Collaborated with the design team to create user-friendly interfaces and ensure seamless user experiences.",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React JS",
+      ],
+    },
     
   ];
   
@@ -137,11 +159,9 @@ export const SkillsInfo = [
     {
       id: 0,
       title: "Workspace Management System",
-      description:
-        " ",
-      image: portfolioLogo,
+      description:"Workspace Management System** is a Python-based desktop application built with Tkinter, MySQL, and Matplotlib to manage employee tasks, attendance, notifications, and performance reports. It provides separate Admin and Employee modules with database-driven task management and visual analytics, helping streamline everyday workplace operations.",
       tags: ["python"],
-      github: " ",
+      github: "https://github.com/Shravani2137/Workspace_management.git",
       webapp: " ",
     },
      
@@ -149,18 +169,16 @@ export const SkillsInfo = [
       id: 1,
       title: "Salon ManagementEasy Q Sysytem",
       description:"An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: portfolioLogo,
+    
       tags: ["React JS", "Node.js", "NPM"],
-      github: " ",
+      github: "https://github.com/Shravani2137/Salon-management-system-.git",
       webapp: " ",
     },
   
     {
       id: 2,
       title: "Smritika Jounal",
-      description:
-        " ",
-      image:portfolioLogo,
+      description:"Smritika is a personalized digital journal and life-management web app that combines mood tracking, journaling, memories, goals, bucket lists, and personal favorites into one interactive dashboard. Built with HTML, CSS, JavaScript, and Firebase, it provides a private and visually engaging space for self-reflection and personal organization. ",
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Shravani2137/Smritika-Journal ",
       webapp: " ",
@@ -171,7 +189,7 @@ export const SkillsInfo = [
       title: "SheCares- Smart Women Health Care Platform ",
       description:
         "Built SheCares, a women-focused period tracking web application using modern web technologies, featuring cycle prediction, symptom tracking, and personalized wellness support.",
-      image:portfolioLogo,
+    
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Shravani2137/Smritika-Journal ",
       webapp: " ",
@@ -217,9 +235,18 @@ export const Certificates = [
   {
     id: 4,
     title: " Innov 4.0 Hackathon Certificate",
-    image: power,
-    description: "Completed Power BI training covering data modeling, DAX, interactive dashboards, and data visualization for business insights.",
-    tags: ["powerbi", "data-visualization", "analytics"],
+    image: Avalon,
+    description: "competed among various teams in the hackathon by developing an innovative solution using cutting-edge technologies.",
+    tags: ["hackathon", "innovation", "teamwork","AIML"],
+    link: " "
+  },
+
+   {
+    id: 4,
+    title: " Software Developer Internship Certificate",
+    image: yugyatra,
+    description: "Completed a software development internship, gaining hands-on experience in Software development and team collaboration.",
+    tags: ["internship", "web-development", "teamwork"],
     link: " "
   },
 ];
@@ -227,23 +254,38 @@ export const Certificates = [
 export const Extracurricular = [
   {
     id: 1,
-    title: "NSS Volunteer",
-    description: "NSS Documenation head of Terna Engineering College 2025-2026.",
-    tag: "Leadership",
-     
+    tag: "NSS",
+    title: "NSS Documentation Head 2025",
+    description: "Managed documentation and coordination of NSS activities for the year 2025-26 also experrience the joy of social work by participating in various events for 2 years.",
+    photos: [ 
+      nss,
+      nss2,
+      nss3,
+    ],
   },
+
   {
     id: 2,
-    title: "Painter",
-    description: "won various national and state level art competitions during school times.",
-    tag: "Creative",
-   
+    tag: "Sports",
+    title: "Volleyball & Tug-of-War",
+    description: "Participated in college-level volleyball and tug-of-war activities.",
+    photos: [
+       s1,
+       s2,
+       s3,
+    ],
   },
+
   {
     id: 3,
-    title: "Tug of War Player",
-    description: "Gold medalist at State level & Local Tugof war tournament.",
-    tag: "Teamwork",
-    
+    tag: "Artist",
+    title: "Artist",
+    description: "won various national and state level art competitions during school times.",
+    photos: [
+       a1,
+       a2,
+       a3,
+       a4,
+    ],
   },
 ];
